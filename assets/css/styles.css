@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #303030;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100wh;
+    height: 100vh;
+}
+
+.container {
+    width: 1100px;
+    height: 652px;
+}
+
+.header {
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 28px;
+    position: relative;
+}
+
+.header .title {
+    width: 1070px;
+    height: 70px;
+    background-color: #52B788;
+    border-radius: 20px;
+    font-weight: 900;
+    font-size: 40px;
+    padding: 10px 48px;
+}
+
+.header .icon {
+    width: 91px;
+    height: 91px;
+    border-radius: 50%;
+    background-color: #52B788;
+    border: 10px solid #303030;
+    position: absolute;
+    z-index: 999;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    height: 447px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 30px;
+}
+
+.main .bar {
+    width: 198px;
+    padding: 33px;
+    background-color: #498467;
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+}
+
+.main .bar .label h2 {
+    font-size: 42px;
+}
+
+.main .bar .label h1 {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main .bar:hover {
+    cursor: pointer;
+}
+
+.main .dark-green {
+    height: 139px;
+    background-color: #498467;
+}
+
+.main .dark-green:hover {
+    background-color: #397457;
+}
+
+.main .dark-yellow {
+    height: 199px;
+    background-color: #F6AE2D;
+}
+
+.main .dark-yellow:hover {
+    background-color: #E5A127;
+}
+
+.main .yellow {
+    height: 272px;
+    background-color: #FFC857;
+}
+
+.main .yellow:hover {
+    background-color: #E7B143;
+}
+
+.main .green {
+    height: 374px;
+    background-color: #52B788;
+}
+
+.main .green:hover {
+    background-color: #3B9B6E;
+}
+
+.main .red {
+    height: 447px;
+    background-color: #DB504A;
+}
+
+.main .red:hover {
+    background-color: #CB3F39;
+}
+
+.separator {
+    width: 100%;
+    height: 13px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.labels {
+    font-size: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.labels .box {
+    width: 198px;
+    text-align: center;
+}
